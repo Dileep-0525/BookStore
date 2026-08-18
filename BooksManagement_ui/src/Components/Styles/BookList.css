@@ -1,0 +1,55 @@
+.book-thumbnail {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.action-icon {
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 12px;
+    transition: 0.3s;
+}
+
+.view-icon {
+    color: #0dcaf0;
+}
+
+.edit-icon {
+    color: #ffc107;
+}
+
+.delete-icon {
+    color: #dc3545;
+}
+
+.action-icon:hover {
+    transform: scale(1.2);
+}
+
+.table-top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.records-dropdown {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.table-footer {
+    margin-top: 10px;
+}
+.add-btn {
+    margin-left: auto;
+    background-color: #198754;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+.add-btn:hover {
+    background-color: #157347;
+}

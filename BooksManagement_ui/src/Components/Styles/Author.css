@@ -1,0 +1,80 @@
+/* Card Styling */
+.card {
+    background: #151827 !important;
+    border: 1px solid #2c3148 !important;
+    border-radius: 16px !important;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 320px;
+}
+
+/* Hover Animation */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 25px rgba(79, 70, 229, 0.35);
+    border-color: #4f46e5 !important;
+}
+
+/* Image */
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #eaf7d5, #e8e8eb);
+}
+
+/* Card Body */
+.card-body {
+    text-align: center;
+    padding: 1.5rem;
+  
+}
+
+/* Author Name */
+.card-title {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Author Details */
+.card-text {
+    color: #1d1e20;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+/* Grid Gap */
+.row {
+    row-gap: 25px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 200px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
+.author-card {
+    background: #ebf0fc;
+    border: 1px solid #d4af37;
+    border-radius: 20px;
+}
+
+.author-body {
+    background: #d7f7e6f1;
+}
+
+.author-title {
+    color: #d4af37 !important;
+    font-weight: bold;
+}
+
+.author-text {
+    color: #ffffff !important;
+}

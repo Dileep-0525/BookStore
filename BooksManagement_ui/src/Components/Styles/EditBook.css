@@ -1,0 +1,139 @@
+/* Container */
+.edit-book-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Card */
+.edit-book-card {
+    background: #ddddff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(247, 244, 244, 0.25);
+}
+
+/* Title */
+.edit-book-title {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+.edit-book-card .form-label {
+    color: #2c2d2e;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Inputs */
+.edit-book-card .form-control,
+.edit-book-card .form-select {
+    background-color: #f6f6fc;
+    border: 1px solid #444;
+    color: #050505;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* Focus */
+.edit-book-card .form-control:focus,
+.edit-book-card .form-select:focus {
+    background-color: #fafaf7;
+    color: #080808;
+    border-color: #4f46e5;
+    box-shadow: 0 0 8px rgba(243, 243, 241, 0.726);
+}
+
+/* Placeholder */
+.edit-book-card .form-control::placeholder {
+    color: #9ca3af;
+}
+
+/* Thumbnail Preview */
+.book-image-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.book-image {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #4f46e5;
+    box-shadow: 0px 4px 12px rgba(79, 70, 229, 0.4);
+}
+
+/* File Input */
+.edit-book-card input[type="file"] {
+    background-color: #f5f5f8;
+    color: rgb(7, 7, 7);
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+/* Textarea */
+.edit-book-card textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Update Button */
+.update-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #6366f1
+    );
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.update-btn:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(
+        135deg,
+        #4338ca,
+        #4f46e5
+    );
+}
+
+/* File Details */
+.file-info {
+    text-align: center;
+    margin-top: 10px;
+    color: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .edit-book-container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .edit-book-card {
+        padding: 20px;
+    }
+
+    .book-image {
+        width: 140px;
+        height: 200px;
+    }
+
+    .edit-book-title {
+        font-size: 24px;
+    }
+}
